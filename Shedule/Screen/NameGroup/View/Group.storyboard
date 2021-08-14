@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="beW-gZ-Gor">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Group View Controller-->
+        <scene sceneID="Fdj-Sx-BDg">
+            <objects>
+                <viewController storyboardIdentifier="GroupVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="beW-gZ-Gor" customClass="GroupViewController" customModule="Shedule" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WTy-3W-sfx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="fqb-Mg-PPT">
+                                <rect key="frame" x="0.0" y="104" width="414" height="733"/>
+                                <color key="backgroundColor" name="bacgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="2" reuseIdentifier="groupCell" id="nRH-EV-3GJ">
+                                        <rect key="frame" x="20" y="55.5" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nRH-EV-3GJ" id="AxF-7F-vGX">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" name="instituteTableColor"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" name="instituteTableColor"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="WTy-3W-sfx" id="Nf5-D4-wqJ"/>
+                                    <outlet property="delegate" destination="WTy-3W-sfx" id="wlY-PK-eAb"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XuU-eg-4kX"/>
+                        <color key="backgroundColor" name="bacgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XuU-eg-4kX" firstAttribute="bottom" secondItem="fqb-Mg-PPT" secondAttribute="bottom" constant="25" id="3Yh-gS-o2Y"/>
+                            <constraint firstItem="fqb-Mg-PPT" firstAttribute="leading" secondItem="XuU-eg-4kX" secondAttribute="leading" id="MYu-h5-q4g"/>
+                            <constraint firstItem="fqb-Mg-PPT" firstAttribute="bottom" secondItem="XuU-eg-4kX" secondAttribute="bottom" id="XuM-a8-2aC"/>
+                            <constraint firstItem="XuU-eg-4kX" firstAttribute="trailing" secondItem="fqb-Mg-PPT" secondAttribute="trailing" id="boz-pI-qGZ"/>
+                            <constraint firstItem="fqb-Mg-PPT" firstAttribute="top" secondItem="XuU-eg-4kX" secondAttribute="top" constant="60" id="kGK-ho-DGP"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="XuM-a8-2aC"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="fqb-Mg-PPT" id="vny-hP-6wR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nxp-pj-siH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-681.15942028985512" y="2236.6071428571427"/>
+        </scene>
+        <!--Group View Controller-->
+        <scene sceneID="qTz-Fi-O7V">
+            <objects>
+                <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="iWG-MC-wj8" customClass="GroupViewController" customModule="Shedule" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IJa-D7-QKF">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите       группу" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Cfb-E7-nEm">
+                                <rect key="frame" x="20" y="1" width="204" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="216" id="MIu-6M-dQa"/>
+                                    <constraint firstAttribute="height" constant="110" id="ln5-zb-vgk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="38"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="MIu-6M-dQa"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="dhS-T3-Q8j">
+                                <rect key="frame" x="0.0" y="116" width="414" height="721"/>
+                                <color key="backgroundColor" name="bacgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="2" reuseIdentifier="groupCell" id="Id3-3V-WIp">
+                                        <rect key="frame" x="20" y="55.5" width="374" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Id3-3V-WIp" id="y0m-iz-2fb">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" name="instituteTableColor"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" name="instituteTableColor"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="IJa-D7-QKF" id="PNs-iB-TgK"/>
+                                    <outlet property="delegate" destination="IJa-D7-QKF" id="bLp-Bx-It5"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yKW-P4-gMK"/>
+                        <color key="backgroundColor" name="bacgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Cfb-E7-nEm" firstAttribute="top" secondItem="IJa-D7-QKF" secondAttribute="top" constant="1" id="2fG-KA-aXf"/>
+                            <constraint firstItem="dhS-T3-Q8j" firstAttribute="bottom" secondItem="yKW-P4-gMK" secondAttribute="bottom" id="821-4r-uhd"/>
+                            <constraint firstItem="dhS-T3-Q8j" firstAttribute="leading" secondItem="yKW-P4-gMK" secondAttribute="leading" id="9jz-j9-1Zz"/>
+                            <constraint firstItem="dhS-T3-Q8j" firstAttribute="top" secondItem="Cfb-E7-nEm" secondAttribute="bottom" constant="1" id="UrT-m4-H80"/>
+                            <constraint firstItem="Cfb-E7-nEm" firstAttribute="leading" secondItem="yKW-P4-gMK" secondAttribute="leading" constant="20" id="b8Z-EN-pId"/>
+                            <constraint firstItem="yKW-P4-gMK" firstAttribute="trailing" secondItem="Cfb-E7-nEm" secondAttribute="trailing" constant="190" id="j4Z-I2-ohb"/>
+                            <constraint firstItem="yKW-P4-gMK" firstAttribute="trailing" secondItem="dhS-T3-Q8j" secondAttribute="trailing" id="ocQ-hv-zEY"/>
+                            <constraint firstItem="yKW-P4-gMK" firstAttribute="bottom" secondItem="dhS-T3-Q8j" secondAttribute="bottom" constant="25" id="qMK-qV-Wdj"/>
+                            <constraint firstItem="dhS-T3-Q8j" firstAttribute="top" secondItem="Cfb-E7-nEm" secondAttribute="bottom" constant="5" id="zgp-cK-nnH"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="UrT-m4-H80"/>
+                                <exclude reference="821-4r-uhd"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="dhS-T3-Q8j" id="9Rs-dX-iOD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZg-CY-076" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="125" y="2237"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="bacgroundColor">
+            <color red="0.94900000095367432" green="0.94900000095367432" blue="0.97600001096725464" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="instituteTableColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

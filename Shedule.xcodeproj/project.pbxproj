@@ -3,18 +3,56 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274A251B1AA7A7E4064CFBEE /* Pods_Shedule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1848F30E1ED9C9C3143ACE4 /* Pods_Shedule.framework */; };
+		4EC7742E2B4CCFB416123B29 /* Pods_SheduleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47ABECF30E647C3CFA5D58F1 /* Pods_SheduleTests.framework */; };
+		A417E7D5364C22D5C425F3D9 /* Pods_Shedule_SheduleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA58BEB997BCC0B792849659 /* Pods_Shedule_SheduleUITests.framework */; };
+		F703BDBC26584F52004369EB /* extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F703BDBB26584F52004369EB /* extension+UIView.swift */; };
 		F72A317225E2E8380056A8A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72A317125E2E8380056A8A3 /* AppDelegate.swift */; };
-		F72A317425E2E8380056A8A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72A317325E2E8380056A8A3 /* SceneDelegate.swift */; };
-		F72A317625E2E8380056A8A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72A317525E2E8380056A8A3 /* ViewController.swift */; };
-		F72A317925E2E8380056A8A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72A317725E2E8380056A8A3 /* Main.storyboard */; };
 		F72A317B25E2E83A0056A8A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F72A317A25E2E83A0056A8A3 /* Assets.xcassets */; };
 		F72A317E25E2E83A0056A8A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F72A317C25E2E83A0056A8A3 /* LaunchScreen.storyboard */; };
 		F72A318925E2E83A0056A8A3 /* SheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72A318825E2E83A0056A8A3 /* SheduleTests.swift */; };
 		F72A319425E2E83A0056A8A3 /* SheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72A319325E2E83A0056A8A3 /* SheduleUITests.swift */; };
+		F74029D5262F1420004D1F94 /* FirstDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74029D4262F1420004D1F94 /* FirstDetailViewController.swift */; };
+		F74029DB262F1EDD004D1F94 /* DetailFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74029D9262F1EDD004D1F94 /* DetailFirstTableViewCell.swift */; };
+		F74029DC262F1EDD004D1F94 /* DetailFirstTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F74029DA262F1EDD004D1F94 /* DetailFirstTableViewCell.xib */; };
+		F751B55E25FFC43300EC816B /* Institutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F751B55D25FFC43300EC816B /* Institutes.swift */; };
+		F751B56625FFCF5700EC816B /* InstituteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F751B56525FFCF5700EC816B /* InstituteViewController.swift */; };
+		F751B56C25FFD11C00EC816B /* Institute.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F751B56B25FFD11C00EC816B /* Institute.storyboard */; };
+		F753B6D52646D65100C782F9 /* TwoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F753B6D32646D65100C782F9 /* TwoTableViewCell.swift */; };
+		F753B6D62646D65100C782F9 /* TwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F753B6D42646D65100C782F9 /* TwoTableViewCell.xib */; };
+		F7634D1425E431F1007809FE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7634D1325E431F1007809FE /* Storyboard.storyboard */; };
+		F7634D1E25E44B4E007809FE /* SheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7634D1C25E44B4E007809FE /* SheduleTableViewCell.swift */; };
+		F7634D1F25E44B4E007809FE /* SheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7634D1D25E44B4E007809FE /* SheduleTableViewCell.xib */; };
+		F7634D2725E45190007809FE /* OddWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7634D2625E45190007809FE /* OddWeekViewController.swift */; };
+		F7733FDE2600AC8F004E0C22 /* Group.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7733FDD2600AC8F004E0C22 /* Group.storyboard */; };
+		F7733FE62600ACA4004E0C22 /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7733FE52600ACA4004E0C22 /* GroupViewController.swift */; };
+		F77340072600E172004E0C22 /* Institute.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77340062600E172004E0C22 /* Institute.swift */; };
+		F773400C2600E192004E0C22 /* ListGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = F773400B2600E192004E0C22 /* ListGroups.swift */; };
+		F77340132600E378004E0C22 /* ParseGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77340122600E378004E0C22 /* ParseGroup.swift */; };
+		F78927D825EC22E200200BFD /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78927D725EC22E200200BFD /* Schedule.swift */; };
+		F78927DD25EC230F00200BFD /* Week.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78927DC25EC230F00200BFD /* Week.swift */; };
+		F78927E225EC234F00200BFD /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78927E125EC234F00200BFD /* Pair.swift */; };
+		F78927E725EC236D00200BFD /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78927E625EC236D00200BFD /* Lecture.swift */; };
+		F78927EC25EC254600200BFD /* Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78927EB25EC254600200BFD /* Parse.swift */; };
+		F794407F2601626C007B253D /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F794407E2601626C007B253D /* Detail.storyboard */; };
+		F7944084260162AB007B253D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7944083260162AB007B253D /* DetailViewController.swift */; };
+		F79440892601656A007B253D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79440882601656A007B253D /* SettingsViewController.swift */; };
+		F7A91F4E25EECC70003F160A /* EvenWeekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A91F4D25EECC6F003F160A /* EvenWeekViewController.swift */; };
+		F7C63856262DB1690012E968 /* NotInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C63855262DB1690012E968 /* NotInternetView.swift */; };
+		F7C6385E262DB18F0012E968 /* NotInternetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C6385D262DB18F0012E968 /* NotInternetView.xib */; };
+		F7DCFB8C262C7AE6004167D3 /* ScheduleLocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DCFB8B262C7AE6004167D3 /* ScheduleLocal.swift */; };
+		F7E30DCE25ED99B8005CBD63 /* TwoPairTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E30DCC25ED99B8005CBD63 /* TwoPairTableViewCell.swift */; };
+		F7E30DCF25ED99B8005CBD63 /* TwoPairTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E30DCD25ED99B8005CBD63 /* TwoPairTableViewCell.xib */; };
+		F7FC5B6D25FD6E6B005A63FE /* NotPairTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC5B6B25FD6E6B005A63FE /* NotPairTableViewCell.swift */; };
+		F7FC5B6E25FD6E6B005A63FE /* NotPairTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7FC5B6C25FD6E6B005A63FE /* NotPairTableViewCell.xib */; };
+		F7FFD96E261CED88003E254A /* ScheduleRM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFD96D261CED88003E254A /* ScheduleRM.swift */; };
+		F7FFD973261CED9F003E254A /* WeekRM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFD972261CED9F003E254A /* WeekRM.swift */; };
+		F7FFD978261CEDB0003E254A /* PairRM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFD977261CEDB0003E254A /* PairRM.swift */; };
+		F7FFD97D261CEDBF003E254A /* LectureRM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FFD97C261CEDBF003E254A /* LectureRM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +73,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		175435547185D5AAEAE8DC3D /* Pods-Shedule-SheduleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shedule-SheduleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Shedule-SheduleUITests/Pods-Shedule-SheduleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		219C1C550E05FC5D9060CEF0 /* Pods-Shedule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shedule.debug.xcconfig"; path = "Target Support Files/Pods-Shedule/Pods-Shedule.debug.xcconfig"; sourceTree = "<group>"; };
+		47ABECF30E647C3CFA5D58F1 /* Pods_SheduleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SheduleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		582949766086A9CC9E62323C /* Pods-Shedule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shedule.release.xcconfig"; path = "Target Support Files/Pods-Shedule/Pods-Shedule.release.xcconfig"; sourceTree = "<group>"; };
+		95764A8F0E0376E0551BD79D /* Pods-SheduleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SheduleTests.release.xcconfig"; path = "Target Support Files/Pods-SheduleTests/Pods-SheduleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A9B9E304471657BBD255F0DC /* Pods-SheduleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SheduleTests.debug.xcconfig"; path = "Target Support Files/Pods-SheduleTests/Pods-SheduleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB0DAE59393DF44B6FBD92F /* Pods-Shedule-SheduleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shedule-SheduleUITests.release.xcconfig"; path = "Target Support Files/Pods-Shedule-SheduleUITests/Pods-Shedule-SheduleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA58BEB997BCC0B792849659 /* Pods_Shedule_SheduleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shedule_SheduleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1848F30E1ED9C9C3143ACE4 /* Pods_Shedule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shedule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F703BDBB26584F52004369EB /* extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+UIView.swift"; sourceTree = "<group>"; };
 		F72A316E25E2E8380056A8A3 /* Shedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72A317125E2E8380056A8A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F72A317325E2E8380056A8A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F72A317525E2E8380056A8A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F72A317825E2E8380056A8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F72A317A25E2E83A0056A8A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F72A317D25E2E83A0056A8A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F72A317F25E2E83A0056A8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +94,43 @@
 		F72A318F25E2E83A0056A8A3 /* SheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SheduleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72A319325E2E83A0056A8A3 /* SheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheduleUITests.swift; sourceTree = "<group>"; };
 		F72A319525E2E83A0056A8A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F74029D4262F1420004D1F94 /* FirstDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDetailViewController.swift; sourceTree = "<group>"; };
+		F74029D9262F1EDD004D1F94 /* DetailFirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFirstTableViewCell.swift; sourceTree = "<group>"; };
+		F74029DA262F1EDD004D1F94 /* DetailFirstTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailFirstTableViewCell.xib; sourceTree = "<group>"; };
+		F751B55D25FFC43300EC816B /* Institutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Institutes.swift; sourceTree = "<group>"; };
+		F751B56525FFCF5700EC816B /* InstituteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstituteViewController.swift; sourceTree = "<group>"; };
+		F751B56B25FFD11C00EC816B /* Institute.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Institute.storyboard; sourceTree = "<group>"; };
+		F753B6D32646D65100C782F9 /* TwoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoTableViewCell.swift; sourceTree = "<group>"; };
+		F753B6D42646D65100C782F9 /* TwoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoTableViewCell.xib; sourceTree = "<group>"; };
+		F7634D1325E431F1007809FE /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		F7634D1C25E44B4E007809FE /* SheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheduleTableViewCell.swift; sourceTree = "<group>"; };
+		F7634D1D25E44B4E007809FE /* SheduleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SheduleTableViewCell.xib; sourceTree = "<group>"; };
+		F7634D2625E45190007809FE /* OddWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddWeekViewController.swift; sourceTree = "<group>"; };
+		F7733FDD2600AC8F004E0C22 /* Group.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Group.storyboard; sourceTree = "<group>"; };
+		F7733FE52600ACA4004E0C22 /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		F77340062600E172004E0C22 /* Institute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Institute.swift; sourceTree = "<group>"; };
+		F773400B2600E192004E0C22 /* ListGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListGroups.swift; sourceTree = "<group>"; };
+		F77340122600E378004E0C22 /* ParseGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseGroup.swift; sourceTree = "<group>"; };
+		F78927D725EC22E200200BFD /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		F78927DC25EC230F00200BFD /* Week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week.swift; sourceTree = "<group>"; };
+		F78927E125EC234F00200BFD /* Pair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
+		F78927E625EC236D00200BFD /* Lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
+		F78927EB25EC254600200BFD /* Parse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parse.swift; sourceTree = "<group>"; };
+		F794407E2601626C007B253D /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		F7944083260162AB007B253D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		F79440882601656A007B253D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F7A91F4D25EECC6F003F160A /* EvenWeekViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenWeekViewController.swift; sourceTree = "<group>"; };
+		F7C63855262DB1690012E968 /* NotInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotInternetView.swift; sourceTree = "<group>"; };
+		F7C6385D262DB18F0012E968 /* NotInternetView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotInternetView.xib; sourceTree = "<group>"; };
+		F7DCFB8B262C7AE6004167D3 /* ScheduleLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleLocal.swift; sourceTree = "<group>"; };
+		F7E30DCC25ED99B8005CBD63 /* TwoPairTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoPairTableViewCell.swift; sourceTree = "<group>"; };
+		F7E30DCD25ED99B8005CBD63 /* TwoPairTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoPairTableViewCell.xib; sourceTree = "<group>"; };
+		F7FC5B6B25FD6E6B005A63FE /* NotPairTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotPairTableViewCell.swift; sourceTree = "<group>"; };
+		F7FC5B6C25FD6E6B005A63FE /* NotPairTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotPairTableViewCell.xib; sourceTree = "<group>"; };
+		F7FFD96D261CED88003E254A /* ScheduleRM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleRM.swift; sourceTree = "<group>"; };
+		F7FFD972261CED9F003E254A /* WeekRM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekRM.swift; sourceTree = "<group>"; };
+		F7FFD977261CEDB0003E254A /* PairRM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairRM.swift; sourceTree = "<group>"; };
+		F7FFD97C261CEDBF003E254A /* LectureRM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureRM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274A251B1AA7A7E4064CFBEE /* Pods_Shedule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EC7742E2B4CCFB416123B29 /* Pods_SheduleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +154,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A417E7D5364C22D5C425F3D9 /* Pods_Shedule_SheduleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62441673A0B4C9F0F4026645 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				219C1C550E05FC5D9060CEF0 /* Pods-Shedule.debug.xcconfig */,
+				582949766086A9CC9E62323C /* Pods-Shedule.release.xcconfig */,
+				175435547185D5AAEAE8DC3D /* Pods-Shedule-SheduleUITests.debug.xcconfig */,
+				AFB0DAE59393DF44B6FBD92F /* Pods-Shedule-SheduleUITests.release.xcconfig */,
+				A9B9E304471657BBD255F0DC /* Pods-SheduleTests.debug.xcconfig */,
+				95764A8F0E0376E0551BD79D /* Pods-SheduleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B4E2902A04D23E5DA1169C01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1848F30E1ED9C9C3143ACE4 /* Pods_Shedule.framework */,
+				EA58BEB997BCC0B792849659 /* Pods_Shedule_SheduleUITests.framework */,
+				47ABECF30E647C3CFA5D58F1 /* Pods_SheduleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F703BDBA26584F30004369EB /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				F703BDBB26584F52004369EB /* extension+UIView.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		F72A316525E2E8380056A8A3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +199,8 @@
 				F72A318725E2E83A0056A8A3 /* SheduleTests */,
 				F72A319225E2E83A0056A8A3 /* SheduleUITests */,
 				F72A316F25E2E8380056A8A3 /* Products */,
+				62441673A0B4C9F0F4026645 /* Pods */,
+				B4E2902A04D23E5DA1169C01 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +217,12 @@
 		F72A317025E2E8380056A8A3 /* Shedule */ = {
 			isa = PBXGroup;
 			children = (
-				F72A317125E2E8380056A8A3 /* AppDelegate.swift */,
-				F72A317325E2E8380056A8A3 /* SceneDelegate.swift */,
-				F72A317525E2E8380056A8A3 /* ViewController.swift */,
-				F72A317725E2E8380056A8A3 /* Main.storyboard */,
-				F72A317A25E2E83A0056A8A3 /* Assets.xcassets */,
-				F72A317C25E2E83A0056A8A3 /* LaunchScreen.storyboard */,
+				F703BDBA26584F30004369EB /* extension */,
 				F72A317F25E2E83A0056A8A3 /* Info.plist */,
+				F72A31A525E2E88B0056A8A3 /* Screen */,
+				F72A31A425E2E85B0056A8A3 /* RMModel */,
+				F75659B325E4EDA300764D1F /* Services */,
+				F72A31AF25E2ED330056A8A3 /* OtherFiles */,
 			);
 			path = Shedule;
 			sourceTree = "<group>";
@@ -128,6 +245,226 @@
 			path = SheduleUITests;
 			sourceTree = "<group>";
 		};
+		F72A31A425E2E85B0056A8A3 /* RMModel */ = {
+			isa = PBXGroup;
+			children = (
+				F7FFD96D261CED88003E254A /* ScheduleRM.swift */,
+				F7FFD972261CED9F003E254A /* WeekRM.swift */,
+				F7FFD977261CEDB0003E254A /* PairRM.swift */,
+				F7FFD97C261CEDBF003E254A /* LectureRM.swift */,
+			);
+			path = RMModel;
+			sourceTree = "<group>";
+		};
+		F72A31A525E2E88B0056A8A3 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				F794407A26016209007B253D /* DetailSheduleClasses */,
+				F72A31D125E301B50056A8A3 /* ScheduleClasses */,
+				F751B55A25FFC37100EC816B /* NameInstitute */,
+				F7733FD92600AC40004E0C22 /* NameGroup */,
+				F72A317125E2E8380056A8A3 /* AppDelegate.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		F72A31AF25E2ED330056A8A3 /* OtherFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F72A317C25E2E83A0056A8A3 /* LaunchScreen.storyboard */,
+				F72A317A25E2E83A0056A8A3 /* Assets.xcassets */,
+			);
+			path = OtherFiles;
+			sourceTree = "<group>";
+		};
+		F72A31D125E301B50056A8A3 /* ScheduleClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F7634D1B25E44B2C007809FE /* Cell */,
+				F72A31DB25E303AE0056A8A3 /* ViewController */,
+				F72A31D925E3037F0056A8A3 /* Model */,
+				F72A31DA25E303880056A8A3 /* ViewModel */,
+				F7C63855262DB1690012E968 /* NotInternetView.swift */,
+				F7C6385D262DB18F0012E968 /* NotInternetView.xib */,
+			);
+			path = ScheduleClasses;
+			sourceTree = "<group>";
+		};
+		F72A31D925E3037F0056A8A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F78927D725EC22E200200BFD /* Schedule.swift */,
+				F78927DC25EC230F00200BFD /* Week.swift */,
+				F78927E125EC234F00200BFD /* Pair.swift */,
+				F78927E625EC236D00200BFD /* Lecture.swift */,
+				F7DCFB8B262C7AE6004167D3 /* ScheduleLocal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F72A31DA25E303880056A8A3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F72A31DB25E303AE0056A8A3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F7634D1325E431F1007809FE /* Storyboard.storyboard */,
+				F7634D2625E45190007809FE /* OddWeekViewController.swift */,
+				F7A91F4D25EECC6F003F160A /* EvenWeekViewController.swift */,
+				F79440882601656A007B253D /* SettingsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F751B55A25FFC37100EC816B /* NameInstitute */ = {
+			isa = PBXGroup;
+			children = (
+				F751B56A25FFD0FA00EC816B /* View */,
+				F751B55B25FFC3EF00EC816B /* ViewController */,
+				F751B55C25FFC3F800EC816B /* Model */,
+			);
+			path = NameInstitute;
+			sourceTree = "<group>";
+		};
+		F751B55B25FFC3EF00EC816B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F751B56525FFCF5700EC816B /* InstituteViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F751B55C25FFC3F800EC816B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F751B55D25FFC43300EC816B /* Institutes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F751B56A25FFD0FA00EC816B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F751B56B25FFD11C00EC816B /* Institute.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F75659B325E4EDA300764D1F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F77340102600E1CA004E0C22 /* NameGroupServices */,
+				F77340112600E1E0004E0C22 /* SheduleClassesServices */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F7634D1B25E44B2C007809FE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F7634D1C25E44B4E007809FE /* SheduleTableViewCell.swift */,
+				F7634D1D25E44B4E007809FE /* SheduleTableViewCell.xib */,
+				F7E30DCC25ED99B8005CBD63 /* TwoPairTableViewCell.swift */,
+				F7E30DCD25ED99B8005CBD63 /* TwoPairTableViewCell.xib */,
+				F7FC5B6B25FD6E6B005A63FE /* NotPairTableViewCell.swift */,
+				F7FC5B6C25FD6E6B005A63FE /* NotPairTableViewCell.xib */,
+				F753B6D32646D65100C782F9 /* TwoTableViewCell.swift */,
+				F753B6D42646D65100C782F9 /* TwoTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F7733FD92600AC40004E0C22 /* NameGroup */ = {
+			isa = PBXGroup;
+			children = (
+				F7733FDA2600AC55004E0C22 /* View */,
+				F7733FDB2600AC5A004E0C22 /* ViewController */,
+				F7733FDC2600AC65004E0C22 /* Model */,
+			);
+			path = NameGroup;
+			sourceTree = "<group>";
+		};
+		F7733FDA2600AC55004E0C22 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7733FDD2600AC8F004E0C22 /* Group.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7733FDB2600AC5A004E0C22 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F7733FE52600ACA4004E0C22 /* GroupViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F7733FDC2600AC65004E0C22 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F77340062600E172004E0C22 /* Institute.swift */,
+				F773400B2600E192004E0C22 /* ListGroups.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F77340102600E1CA004E0C22 /* NameGroupServices */ = {
+			isa = PBXGroup;
+			children = (
+				F77340122600E378004E0C22 /* ParseGroup.swift */,
+			);
+			path = NameGroupServices;
+			sourceTree = "<group>";
+		};
+		F77340112600E1E0004E0C22 /* SheduleClassesServices */ = {
+			isa = PBXGroup;
+			children = (
+				F78927EB25EC254600200BFD /* Parse.swift */,
+			);
+			path = SheduleClassesServices;
+			sourceTree = "<group>";
+		};
+		F794407A26016209007B253D /* DetailSheduleClasses */ = {
+			isa = PBXGroup;
+			children = (
+				F794407B2601621F007B253D /* View */,
+				F794407C26016228007B253D /* ViewController */,
+				F794407D26016231007B253D /* Model */,
+			);
+			path = DetailSheduleClasses;
+			sourceTree = "<group>";
+		};
+		F794407B2601621F007B253D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F794407E2601626C007B253D /* Detail.storyboard */,
+				F74029D9262F1EDD004D1F94 /* DetailFirstTableViewCell.swift */,
+				F74029DA262F1EDD004D1F94 /* DetailFirstTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F794407C26016228007B253D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F7944083260162AB007B253D /* DetailViewController.swift */,
+				F74029D4262F1420004D1F94 /* FirstDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F794407D26016231007B253D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +472,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F72A319825E2E83A0056A8A3 /* Build configuration list for PBXNativeTarget "Shedule" */;
 			buildPhases = (
+				033D14B85F1F5516057177B7 /* [CP] Check Pods Manifest.lock */,
 				F72A316A25E2E8380056A8A3 /* Sources */,
 				F72A316B25E2E8380056A8A3 /* Frameworks */,
 				F72A316C25E2E8380056A8A3 /* Resources */,
+				DFC06B2ED85B6D6489B6707C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +491,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F72A319B25E2E83A0056A8A3 /* Build configuration list for PBXNativeTarget "SheduleTests" */;
 			buildPhases = (
+				CFB308CBE5A95772F7ED035D /* [CP] Check Pods Manifest.lock */,
 				F72A318025E2E83A0056A8A3 /* Sources */,
 				F72A318125E2E83A0056A8A3 /* Frameworks */,
 				F72A318225E2E83A0056A8A3 /* Resources */,
@@ -170,9 +510,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F72A319E25E2E83A0056A8A3 /* Build configuration list for PBXNativeTarget "SheduleUITests" */;
 			buildPhases = (
+				35F6BF2BE1EE2811582E4BC5 /* [CP] Check Pods Manifest.lock */,
 				F72A318B25E2E83A0056A8A3 /* Sources */,
 				F72A318C25E2E83A0056A8A3 /* Frameworks */,
 				F72A318D25E2E83A0056A8A3 /* Resources */,
+				6665037E7E0051B5CEE03742 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +573,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7FC5B6E25FD6E6B005A63FE /* NotPairTableViewCell.xib in Resources */,
+				F751B56C25FFD11C00EC816B /* Institute.storyboard in Resources */,
+				F794407F2601626C007B253D /* Detail.storyboard in Resources */,
+				F7C6385E262DB18F0012E968 /* NotInternetView.xib in Resources */,
 				F72A317E25E2E83A0056A8A3 /* LaunchScreen.storyboard in Resources */,
+				F74029DC262F1EDD004D1F94 /* DetailFirstTableViewCell.xib in Resources */,
+				F7E30DCF25ED99B8005CBD63 /* TwoPairTableViewCell.xib in Resources */,
+				F7733FDE2600AC8F004E0C22 /* Group.storyboard in Resources */,
+				F7634D1F25E44B4E007809FE /* SheduleTableViewCell.xib in Resources */,
 				F72A317B25E2E83A0056A8A3 /* Assets.xcassets in Resources */,
-				F72A317925E2E8380056A8A3 /* Main.storyboard in Resources */,
+				F753B6D62646D65100C782F9 /* TwoTableViewCell.xib in Resources */,
+				F7634D1425E431F1007809FE /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,14 +604,143 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		033D14B85F1F5516057177B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shedule-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35F6BF2BE1EE2811582E4BC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shedule-SheduleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6665037E7E0051B5CEE03742 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shedule-SheduleUITests/Pods-Shedule-SheduleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shedule-SheduleUITests/Pods-Shedule-SheduleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shedule-SheduleUITests/Pods-Shedule-SheduleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB308CBE5A95772F7ED035D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SheduleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFC06B2ED85B6D6489B6707C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shedule/Pods-Shedule-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shedule/Pods-Shedule-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shedule/Pods-Shedule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F72A316A25E2E8380056A8A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F72A317625E2E8380056A8A3 /* ViewController.swift in Sources */,
+				F78927D825EC22E200200BFD /* Schedule.swift in Sources */,
+				F773400C2600E192004E0C22 /* ListGroups.swift in Sources */,
+				F753B6D52646D65100C782F9 /* TwoTableViewCell.swift in Sources */,
+				F7C63856262DB1690012E968 /* NotInternetView.swift in Sources */,
+				F78927DD25EC230F00200BFD /* Week.swift in Sources */,
+				F7E30DCE25ED99B8005CBD63 /* TwoPairTableViewCell.swift in Sources */,
+				F7634D2725E45190007809FE /* OddWeekViewController.swift in Sources */,
+				F79440892601656A007B253D /* SettingsViewController.swift in Sources */,
+				F77340132600E378004E0C22 /* ParseGroup.swift in Sources */,
+				F7FFD97D261CEDBF003E254A /* LectureRM.swift in Sources */,
+				F78927E725EC236D00200BFD /* Lecture.swift in Sources */,
+				F751B56625FFCF5700EC816B /* InstituteViewController.swift in Sources */,
+				F7733FE62600ACA4004E0C22 /* GroupViewController.swift in Sources */,
+				F7FFD978261CEDB0003E254A /* PairRM.swift in Sources */,
+				F7944084260162AB007B253D /* DetailViewController.swift in Sources */,
+				F7FFD96E261CED88003E254A /* ScheduleRM.swift in Sources */,
+				F7DCFB8C262C7AE6004167D3 /* ScheduleLocal.swift in Sources */,
+				F7FFD973261CED9F003E254A /* WeekRM.swift in Sources */,
+				F74029DB262F1EDD004D1F94 /* DetailFirstTableViewCell.swift in Sources */,
+				F703BDBC26584F52004369EB /* extension+UIView.swift in Sources */,
+				F7FC5B6D25FD6E6B005A63FE /* NotPairTableViewCell.swift in Sources */,
+				F74029D5262F1420004D1F94 /* FirstDetailViewController.swift in Sources */,
+				F78927E225EC234F00200BFD /* Pair.swift in Sources */,
+				F77340072600E172004E0C22 /* Institute.swift in Sources */,
+				F7A91F4E25EECC70003F160A /* EvenWeekViewController.swift in Sources */,
+				F7634D1E25E44B4E007809FE /* SheduleTableViewCell.swift in Sources */,
+				F78927EC25EC254600200BFD /* Parse.swift in Sources */,
 				F72A317225E2E8380056A8A3 /* AppDelegate.swift in Sources */,
-				F72A317425E2E8380056A8A3 /* SceneDelegate.swift in Sources */,
+				F751B55E25FFC43300EC816B /* Institutes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +776,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F72A317725E2E8380056A8A3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F72A317825E2E8380056A8A3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F72A317C25E2E83A0056A8A3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +838,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +893,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,6 +905,7 @@
 		};
 		F72A319925E2E83A0056A8A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 219C1C550E05FC5D9060CEF0 /* Pods-Shedule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,12 +919,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Igor.Shedule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F72A319A25E2E83A0056A8A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582949766086A9CC9E62323C /* Pods-Shedule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -465,12 +939,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Igor.Shedule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		F72A319C25E2E83A0056A8A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B9E304471657BBD255F0DC /* Pods-SheduleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +968,7 @@
 		};
 		F72A319D25E2E83A0056A8A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95764A8F0E0376E0551BD79D /* Pods-SheduleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +991,7 @@
 		};
 		F72A319F25E2E83A0056A8A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175435547185D5AAEAE8DC3D /* Pods-Shedule-SheduleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +1012,7 @@
 		};
 		F72A31A025E2E83A0056A8A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB0DAE59393DF44B6FBD92F /* Pods-Shedule-SheduleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
