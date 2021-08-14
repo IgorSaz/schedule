@@ -221,7 +221,7 @@ extension EvenWeekViewController: UITableViewDelegate, UITableViewDataSource {
         cell.configure(numberPair: shedule[indexPath.row][0].pair, firstNamePair: shedule[indexPath.row][0].subject, firstAuditoriumPair: shedule[indexPath.row][0].rooms, firstNameTeacher: shedule[indexPath.row][0].lecturers, firstTypePair: shedule[indexPath.row][0].type, secondNamePair: shedule[indexPath.row][1].subject, secondAuditoriumPair: shedule[indexPath.row][1].rooms, secondNameTeacher: shedule[indexPath.row][1].lecturers, secondTypePair: shedule[indexPath.row][1].type)*/
         let cell = tableView.dequeueReusableCell(withIdentifier: "FCell", for: indexPath) as! TwoTableViewCell
         cell.selectionStyle = UITableViewCell.SelectionStyle.none
-        cell.setupViews()
+        //cell.setupViews()
         return cell
       }
     } else {

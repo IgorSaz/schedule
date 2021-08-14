@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="fqb-Mg-PPT">
-                                <rect key="frame" x="0.0" y="104" width="414" height="733"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="773"/>
                                 <color key="backgroundColor" name="bacgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="2" reuseIdentifier="groupCell" id="nRH-EV-3GJ">
@@ -45,7 +45,7 @@
                             <constraint firstItem="fqb-Mg-PPT" firstAttribute="leading" secondItem="XuU-eg-4kX" secondAttribute="leading" id="MYu-h5-q4g"/>
                             <constraint firstItem="fqb-Mg-PPT" firstAttribute="bottom" secondItem="XuU-eg-4kX" secondAttribute="bottom" id="XuM-a8-2aC"/>
                             <constraint firstItem="XuU-eg-4kX" firstAttribute="trailing" secondItem="fqb-Mg-PPT" secondAttribute="trailing" id="boz-pI-qGZ"/>
-                            <constraint firstItem="fqb-Mg-PPT" firstAttribute="top" secondItem="XuU-eg-4kX" secondAttribute="top" constant="60" id="kGK-ho-DGP"/>
+                            <constraint firstItem="fqb-Mg-PPT" firstAttribute="top" secondItem="XuU-eg-4kX" secondAttribute="top" constant="20" id="kGK-ho-DGP"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -64,6 +64,7 @@
         <!--Group View Controller-->
         <scene sceneID="qTz-Fi-O7V">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cZg-CY-076" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController useStoryboardIdentifierAsRestorationIdentifier="YES" id="iWG-MC-wj8" customClass="GroupViewController" customModule="Shedule" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IJa-D7-QKF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -120,8 +121,8 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="UrT-m4-H80"/>
                                 <exclude reference="821-4r-uhd"/>
+                                <exclude reference="UrT-m4-H80"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,7 +130,6 @@
                         <outlet property="tableView" destination="dhS-T3-Q8j" id="9Rs-dX-iOD"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cZg-CY-076" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="125" y="2237"/>
         </scene>

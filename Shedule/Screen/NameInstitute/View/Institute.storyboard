@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="nXR-Jz-9V5">
-                                <rect key="frame" x="0.0" y="60" width="414" height="689"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="729"/>
                                 <color key="backgroundColor" name="bacgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="2" reuseIdentifier="instituteCell" id="9MJ-gU-yOg">
@@ -43,7 +43,7 @@
                         <constraints>
                             <constraint firstItem="hLp-QR-xNh" firstAttribute="trailing" secondItem="nXR-Jz-9V5" secondAttribute="trailing" id="B1F-TB-Ycw"/>
                             <constraint firstItem="nXR-Jz-9V5" firstAttribute="leading" secondItem="hLp-QR-xNh" secondAttribute="leading" id="J5G-fI-ajW"/>
-                            <constraint firstItem="nXR-Jz-9V5" firstAttribute="top" secondItem="hLp-QR-xNh" secondAttribute="top" constant="60" id="Q1m-GD-GHu"/>
+                            <constraint firstItem="nXR-Jz-9V5" firstAttribute="top" secondItem="hLp-QR-xNh" secondAttribute="top" constant="20" id="Q1m-GD-GHu"/>
                             <constraint firstItem="nXR-Jz-9V5" firstAttribute="bottom" secondItem="hLp-QR-xNh" secondAttribute="bottom" id="XDx-SV-POw"/>
                             <constraint firstItem="hLp-QR-xNh" firstAttribute="bottom" secondItem="nXR-Jz-9V5" secondAttribute="bottom" constant="25" id="xN7-Sy-mMb"/>
                         </constraints>
@@ -80,73 +80,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S4d-WP-qg4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-420.28985507246381" y="2410.7142857142858"/>
-        </scene>
-        <!--Title-->
-        <scene sceneID="PUB-Mb-Si2">
-            <objects>
-                <viewController id="M9G-MT-IqG" customClass="InstituteViewController" customModule="Shedule" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="vKk-8G-1Av">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Выберите Институт" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hBZ-ah-YGC">
-                                <rect key="frame" x="20" y="45" width="243" height="110"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="243" id="bTN-Xw-U07"/>
-                                    <constraint firstAttribute="height" constant="110" id="q3I-yC-Rca"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="38"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="IkV-m8-QpD">
-                                <rect key="frame" x="0.0" y="156" width="414" height="681"/>
-                                <color key="backgroundColor" name="bacgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="2" reuseIdentifier="instituteCell" id="x4X-gC-XJp">
-                                        <rect key="frame" x="20" y="55.5" width="374" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="x4X-gC-XJp" id="lM2-FS-TDe">
-                                            <rect key="frame" x="0.0" y="0.0" width="374" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <color key="backgroundColor" name="instituteTableColor"/>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" name="instituteTableColor"/>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="vKk-8G-1Av" id="7td-Su-Gcu"/>
-                                    <outlet property="delegate" destination="vKk-8G-1Av" id="mpI-Ed-bwF"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="dh4-Uk-xOy"/>
-                        <color key="backgroundColor" name="bacgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="hBZ-ah-YGC" firstAttribute="leading" secondItem="dh4-Uk-xOy" secondAttribute="leading" constant="20" id="13M-j9-JTK"/>
-                            <constraint firstItem="hBZ-ah-YGC" firstAttribute="top" secondItem="vKk-8G-1Av" secondAttribute="top" constant="1" id="1of-hH-FhS"/>
-                            <constraint firstItem="dh4-Uk-xOy" firstAttribute="bottom" secondItem="IkV-m8-QpD" secondAttribute="bottom" constant="25" id="2l2-cX-ANz"/>
-                            <constraint firstItem="dh4-Uk-xOy" firstAttribute="trailing" secondItem="hBZ-ah-YGC" secondAttribute="trailing" constant="151" id="4Lr-gl-S7A"/>
-                            <constraint firstItem="IkV-m8-QpD" firstAttribute="top" secondItem="hBZ-ah-YGC" secondAttribute="bottom" constant="1" id="Dt4-yo-xR5"/>
-                            <constraint firstItem="IkV-m8-QpD" firstAttribute="leading" secondItem="dh4-Uk-xOy" secondAttribute="leading" id="FZm-Sk-9Qm"/>
-                            <constraint firstItem="dh4-Uk-xOy" firstAttribute="trailing" secondItem="IkV-m8-QpD" secondAttribute="trailing" id="aCW-7K-gTY"/>
-                            <constraint firstItem="hBZ-ah-YGC" firstAttribute="top" secondItem="dh4-Uk-xOy" secondAttribute="top" constant="1" id="jTJ-qM-UeD"/>
-                            <constraint firstItem="IkV-m8-QpD" firstAttribute="bottom" secondItem="dh4-Uk-xOy" secondAttribute="bottom" id="xgH-y3-d1O"/>
-                        </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="xgH-y3-d1O"/>
-                            </mask>
-                        </variation>
-                    </view>
-                    <navigationItem key="navigationItem" title="Title" largeTitleDisplayMode="always" id="Jk5-hT-AHC"/>
-                    <connections>
-                        <outlet property="tableView" destination="IkV-m8-QpD" id="Ddr-bw-yn9"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HNu-Fd-jY9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1245" y="2411"/>
         </scene>
     </scenes>
     <resources>
