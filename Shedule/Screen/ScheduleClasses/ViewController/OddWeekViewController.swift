@@ -265,6 +265,9 @@ class OddWeakViewController: UIViewController {
     tableView.separatorStyle = .none
     tableView.backgroundColor = UIColor(named: "not")
     
+    let second = UINib(nibName: "TwoTableViewCell", bundle: Bundle.main)
+    tableView.register(second, forCellReuseIdentifier: "FCell")
+    
     //notInternetView.layer.cornerRadius = 10
   }
   
@@ -516,10 +519,15 @@ extension OddWeakViewController: UITableViewDelegate, UITableViewDataSource {
         cell.configure(numberPair: shedule[indexPath.row][0].pair, namePair: shedule[indexPath.row][0].subject, auditoriumPair: shedule[indexPath.row][0].rooms, nameTeacher: shedule[indexPath.row][0].lecturers, typePair: shedule[indexPath.row][0].type)
         return cell
       } else {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "twoPairCell", for: indexPath) as! TwoPairTableViewCell
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "twoPairCell", for: indexPath) as! TwoPairTableViewCell
+//        cell.selectionStyle = UITableViewCell.SelectionStyle.none
+//        cell.configure(numberPair: shedule[indexPath.row][0].pair, firstNamePair: shedule[indexPath.row][0].subject, firstAuditoriumPair: shedule[indexPath.row][0].rooms, firstNameTeacher: shedule[indexPath.row][0].lecturers, firstTypePair: shedule[indexPath.row][0].type, secondNamePair: shedule[indexPath.row][1].subject, secondAuditoriumPair: shedule[indexPath.row][1].rooms, secondNameTeacher: shedule[indexPath.row][1].lecturers, secondTypePair: shedule[indexPath.row][1].type)
+//        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FCell", for: indexPath) as! TwoTableViewCell // twoPairCell
         cell.selectionStyle = UITableViewCell.SelectionStyle.none
         cell.configure(numberPair: shedule[indexPath.row][0].pair, firstNamePair: shedule[indexPath.row][0].subject, firstAuditoriumPair: shedule[indexPath.row][0].rooms, firstNameTeacher: shedule[indexPath.row][0].lecturers, firstTypePair: shedule[indexPath.row][0].type, secondNamePair: shedule[indexPath.row][1].subject, secondAuditoriumPair: shedule[indexPath.row][1].rooms, secondNameTeacher: shedule[indexPath.row][1].lecturers, secondTypePair: shedule[indexPath.row][1].type)
         return cell
+        
       }
     } else {
       let cell = tableView.dequeueReusableCell(withIdentifier: "notPairCell", for: indexPath) as! NotPairTableViewCell
@@ -531,7 +539,7 @@ extension OddWeakViewController: UITableViewDelegate, UITableViewDataSource {
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     if shedule[indexPath.row].count > 1 {
       let viewController = UIStoryboard.init(name: "Detail", bundle: Bundle.main).instantiateViewController(withIdentifier: "secondDetailVC")
-      self.navigationController?.pushViewController(viewController, animated: true)
+        //self.navigationController?.pushViewController(viewController, animated: true)
     } else {
       let viewController = UIStoryboard.init(name: "Detail", bundle: Bundle.main).instantiateViewController(withIdentifier: "firstDetailVC") as! FirstDetailViewController
       viewController.pair = shedule[indexPath.row]
