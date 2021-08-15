@@ -123,7 +123,7 @@ class TwoTableViewCell: UITableViewCell {
         case "lab":
           firstTypePairLabel.text = "ЛЗ"
         default:
-          firstTypePairLabel.text = ""
+          firstTypePairLabel.text = "ЛЗ"
         }
         
         switch secondTypePair { // type Pair
@@ -134,7 +134,7 @@ class TwoTableViewCell: UITableViewCell {
         case "lab":
           secondTypePairLabel.text = "ЛЗ"
         default:
-          secondTypePairLabel.text = ""
+          secondTypePairLabel.text = "ЛЗ"
         }
     }
     
