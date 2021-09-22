@@ -6,8 +6,6 @@ target 'Shedule' do
   use_frameworks!
 
   # Pods for Shedule
-	pod 'RealmSwift'
-	pod 'Realm'
 
   target 'SheduleTests' do
     inherit! :search_paths
