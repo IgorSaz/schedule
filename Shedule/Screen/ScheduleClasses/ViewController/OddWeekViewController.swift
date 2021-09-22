@@ -538,7 +538,7 @@ extension OddWeakViewController: UITableViewDelegate, UITableViewDataSource {
   
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     if shedule[indexPath.row].count > 1 {
-      let viewController = UIStoryboard.init(name: "Detail", bundle: Bundle.main).instantiateViewController(withIdentifier: "secondDetailVC")
+      //let viewController = UIStoryboard.init(name: "Detail", bundle: Bundle.main).instantiateViewController(withIdentifier: "secondDetailVC")
         //self.navigationController?.pushViewController(viewController, animated: true)
     } else {
       let viewController = UIStoryboard.init(name: "Detail", bundle: Bundle.main).instantiateViewController(withIdentifier: "firstDetailVC") as! FirstDetailViewController
